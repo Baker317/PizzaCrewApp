@@ -1,0 +1,24 @@
+@use './variables' as *;
+
+.footer {
+    background-color: #000;
+    text-align: center;
+}
+
+.share {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.credit {
+    padding: 2.5rem 1rem;
+    color: #fff;
+    font-weight: normal;
+    font-size: 2rem;
+
+    span {
+        color: $red;
+    }
+}

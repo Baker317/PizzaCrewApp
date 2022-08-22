@@ -1,0 +1,39 @@
+<div id = "page-container">
+    <div id = "content-wrap">
+        <h2 style = "text-align:center; background-color: #6fdc6f">Menu </h2>
+        <div class="col-md-7 offset-md-3">
+        <table class="table table-striped center"  >
+            <thead>
+            </thead>
+            <tbody>
+                <tr *ngFor="let item of items">
+                    <td style="vertical-align:middle" ><font size = "+2">{{item.id}}</font>
+                        <td style="width:30%"><b><font size = "+2">{{item.name}}</font></b><br><br>{{item.description}}</td>
+            
+                        <td style ="vertical-align: middle"><font size="+3">{{item.price}}</font>
+                        </td>
+                <td><a href="item.imageUrl">
+                    <img src={{item.imageUrl}} alt="Pizza pic"
+                width= "100" height = "100"></a></td>
+                        <td style = "width: 20%">
+                            <button (click) = "1" class = "btn btn-success"> Add to Cart </button>
+                    </td>
+            </tbody>
+                    
+            
+            
+        </table>
+        </div>
+
+        <button (click) = "goToThankYou()" class = "btn btn-primary"> Checkout </button>
+    </div>
+        <footer class = "footer">
+            <div class = "nav-item">
+                <span><a href="items" routerLinkActive="active" class="nav-link" >Update Menu</a>@2022 PizzaCrew All rights reserved.
+                </span>
+            </div>
+            
+        </footer>
+</div>
+
+

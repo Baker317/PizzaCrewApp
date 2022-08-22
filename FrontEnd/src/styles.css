@@ -1,0 +1,69 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+
+  nav {
+
+    font-family:  Montserrat
+    
+   
+    
+
+  }
+
+  ul#navigation .active {
+    font-weight: bold;
+  
+  } 
+
+  table {
+    width: 25px;
+
+  }
+
+.banner2 {
+  -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color:#fff;
+    background-color:#333;
+    font-family: 'Open Sans', Arial, Helvetica, Sans-Serif;
+  
+  }
+
+  body {
+  background-image: url("assets/imgs/home-bg.jpg")
+  }
+
+
+
+.navbar-nav > li {
+    display: inline-block;
+    float:none;
+}
+
+.navbar a:hover, .navbar a.active {
+  color: #fff;
+  background-color:#27ae60;
+}
+
+.logo-image img{
+  width: 60px;
+  height: 46px;
+  overflow: hidden;
+  margin-top: -6px;
+  
+  }
+
+  .logo-image2 img{
+    display:flex;
+    flex-direction:row
+    
+  }
+    
+  .responsive {
+    min-width: 100%;
+    min-height: auto;
+  }
+  

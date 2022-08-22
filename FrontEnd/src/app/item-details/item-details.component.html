@@ -1,0 +1,33 @@
+<h2 style = "text-align:center; background-color: #6fdc6f">Item Details </h2>
+<button (click) = "goToItemList()" class = "btn btn-primary"> Back </button>
+<div class="col-md-6 offset-md-5">
+    <div>
+        <label> <b> Item ID: </b></label> <br>{{item.id}}
+    </div>
+    <div>
+        <label> <b> Item Name: </b></label> <br>{{item.name}}
+    </div>
+    <div>
+        <label> <b> Item Price: </b></label> <br>{{item.price}}
+    </div>
+
+    <div>
+        <label> <b> Image URL: </b></label> <br>{{item.imageUrl}}
+    </div>
+
+    <div>
+        <label> <b> Image: </b></label> <br> <img src="{{item.imageUrl}}" alt="Pizza pic">
+    </div>
+
+    <div>
+        <label> <b> Description: </b></label> <br>{{item.description}}
+    </div>
+
+</div>
+
+
+<footer class = "footer">
+        @2022 PizzaCrew All rights reserved.
+    
+    
+</footer>

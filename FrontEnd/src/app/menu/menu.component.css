@@ -1,0 +1,33 @@
+
+  .text-right
+  {
+    position:relative;
+    left: 1050px;
+  }
+
+  footer
+  {
+    width: 100%;
+    height: 100px;
+    background-color: #000000;
+    z-index: 10;
+    clear: both;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+
+  #page-container {
+    position: relative;
+    min-height: 100vh;
+  }
+  
+  #content-wrap {
+    padding-bottom: 10rem;    /* Footer height */
+  }
+
+
+  .btn-primary{
+    margin-left:1200px;
+  }

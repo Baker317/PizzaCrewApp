@@ -1,0 +1,57 @@
+@use './variables' as *;
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    padding: 1rem 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 444;
+    box-shadow: $box-shadow;
+}
+
+.logo-container {
+    a {
+        color: $black;
+        font-size: 2.5rem;
+        font-weight: bolder;
+    }
+
+    i {
+        color: $green;
+    }
+}
+
+.navbar {
+    a {
+        font-size: 1.7rem;
+        border-radius: 0.5rem;
+        padding: 0.5rem 1.5rem;
+        color: $light-color;
+
+        &:hover,
+        &.active {
+            color: #fff;
+            background-color: $green;
+        }
+    }
+}
+
+.header__left {
+    i {
+        cursor: pointer;
+        margin-left: 0.5rem;
+        height: 4.5rem;
+        line-height: 4.5rem;
+        width: 4.5rem;
+        text-align: center;
+        font-size: 1.7rem;
+        color: $black;
+        border-radius: 50%;
+        background-color: #eee;
+    }
+}
